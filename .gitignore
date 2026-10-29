@@ -1,0 +1,40 @@
+# Virtual environments
+venv/
+venv311/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Checkpoints & Models (too large for git)
+checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Results (generated at runtime — commit selectively)
+results/*.csv
+results/figures/
+
+# Environment
+.env
+*.log
